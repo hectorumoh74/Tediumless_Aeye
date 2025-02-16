@@ -25,14 +25,14 @@ Create a Star-schema
 
 ## Import and Load Cleaned data (Sales & Customer tables) into Power BI Desktop and create visualizations
 
-1.              Table Visual
+1. Table Visual https://github.com/hectorumoh74/Tediumless_Aeye/commit/36f0bc344323e3f35f2c73fe764939fe0076ad8a#diff-8aef2838199e45bbc94d32c1ea21ef6144d9164890bc8cbf13df92f830f59263
 Table visualization serves as a quick reference, showcasing what products are selling and where it’s at in the delivery pipeline paramount.
 i. On blank canvas, Select the Table icon to create an empty table visualization on the canvas.
 ii. Select the Sales table to expand it and view its fields.
 iii. Drag and drop Product ID from the Data pane to the Columns well in the Visualizations pane and drag Product Name, Order ID, Order Status, and Order Total into the same Columns well.
 iv. Format table visual and change its appearance.
 
-2.            Column Chat
+2. Column Chat https://github.com/hectorumoh74/Tediumless_Aeye/commit/36f0bc344323e3f35f2c73fe764939fe0076ad8a#diff-8aef2838199e45bbc94d32c1ea21ef6144d9164890bc8cbf13df92f830f59263
 What sold is important however, it's crucial to know what’s selling dominantly and what’s not leaving the warehouse. A column chart instantly shows which product categories at are revenue generators and which need a strategic revisit.
 i. Select the Clustered Column chart icon in the Visualizations pane.
 ii. Make Product Category from the Sales table the X-Axis.
@@ -42,8 +42,9 @@ v. Drop Order Quantity and Product Weight fields from the Sales table into the T
 vi. Sort Sum of Order Total in ascending order.
 * Observation: The Order Total for Kids Bikes is $500, making it the product category with the lowest overall sales.
 
-  3.                Line Chart
+  3.  Line Chart
  Sales peak drop times will help Client rejig it's seasonal strategies and the Line Chart will help necessary context.
+https://github.com/hectorumoh74/Tediumless_Aeye/commit/36f0bc344323e3f35f2c73fe764939fe0076ad8a#diff-8aef2838199e45bbc94d32c1ea21ef6144d9164890bc8cbf13df92f830f59263
  i. Select the Line chart icon in the Visualizations pane. 
  ii. Make OrderDate from the Sales the X-Axis.
  iii. and Order Total and the Y-Axis.
